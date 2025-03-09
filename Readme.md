@@ -13,5 +13,7 @@ This is a front-end-only project, but it's packed with creativity and attention 
 📌 Built with: HTML | CSS | JavaScript
 
 ## **✨ Preview**  
-![Homepage Preview](images/homepage.png)  
+![Homepage Preview](images/out1.png)  
+![Homepage Preview](images/out2.png)  
+![Homepage Preview](images/out3.png)  
 *A beautifully designed event planning website with colorful gradients and smooth textures.*  
