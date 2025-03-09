@@ -1,0 +1,327 @@
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EVENTIFY-Samarambh</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style_CS.css">
+</head>
+<body>
+	<header>
+		<div class="navbar">
+            <div class="catchy">India's Best Event Oraganising Plateform</div>
+            <div class="language">
+                <div class="country-select border">
+                <select class="country-select">
+                    <option>ENG<i class="fa-solid fa-chevron-down"></i></option>
+                    <option>HIN<i class="fa-solid fa-chevron-down"></i></option>
+                    <option>PUN<i class="fa-solid fa-chevron-down"></i></option>
+                    <option>GUJ<i class="fa-solid fa-chevron-down"></i></option>
+
+                </select></div>
+            </div>
+            <div class="nav-offer border">
+
+				<p class="nav-sec"><i class="fa-solid fa-percent"></i> Offers</p>
+			</div>
+            <div class="help border"><i class="fa-solid fa-circle-info"></i> Help</div>
+		</div>
+        
+		<div class="panel">
+			<div class="logo"><img src="temp/1.png" id="logo1"></div>
+			<div class="nav-offer"><p class="nav-sec menu-button dark" id="menu-button1" ><i class="fa-solid fa-venus"></i> Venues</p></div>
+			<div class="nav-offer"><p class="nav-sec menu-button dark" id="menu-button2" ><i class="fa-solid fa-handshake"></i> Vendors</p></div>
+			<div class="nav-offer"><p class="nav-sec menu-button dark" id="menu-button3" ><i class="fa-solid fa-envelope"></i> Invitaion</p></div>
+			<div class="nav-offer"><p class="nav-sec menu-button dark" id="menu-button4" ><i class="fa-solid fa-blog"></i> Blogs</p></div>
+			<div class="nav-offer"><p class="nav-sec menu-button dark" id="menu-button5" ><i class="fa-brands fa-themeco"></i> Themes</p></div>
+			<div class="nav-offer"><p class="nav-sec user" onclick="showAlert()"><i class="fa-solid fa-user"></i> Login</p></div>
+			</div>
+		</div>
+	</header>
+<!-- manu tab -->
+<div id="side-menu1" class="side-menu">
+	<a href="#" class="menu-item">Top Venues</a>
+	<a href="#" class="menu-item">Big Cities</a>
+	<a href="#" class="menu-item">5 Star Venues</a>
+	<a href="#" class="menu-item">Resorts/FarmHouses</a>
+	<a href="#" class="menu-item">Small Function</a>
+	<a href="#" class="menu-item">View All Venues</a>
+</div>
+<div id="side-menu2" class="side-menu">
+	<a href="#" class="menu-item">Make up</a>
+	<a href="#" class="menu-item">Photographers</a>
+	<a href="#" class="menu-item">Event and theme Planners</a>
+	<a href="#" class="menu-item">Food Vendors</a>
+	<a href="#" class="menu-item">Music & Dance	Vendors</a>
+	<a href="#" class="menu-item">Bridal Wear</a>
+	<a href="#" class="menu-item">Pandits</a>
+	<a href="#" class="menu-item">Host/Announcer </a>
+	<a href="#" class="menu-item">Groom Vendors</a>
+
+
+</div>
+<div id="side-menu3" class="side-menu">
+	<a href="#" class="menu-item">Wedding Invitation</a>
+	<a href="#" class="menu-item">Anniversary Invitations</a>
+	<a href="#" class="menu-item">Birtday Invitations</a>
+	<a href="#" class="menu-item">Fest Invitations</a>
+	<a href="#" class="menu-item">Festivals Invitations</a>
+	<a href="#" class="menu-item">Annual Function Invitations</a>
+
+
+</div>
+<div id="side-menu4" class="side-menu">
+	<a href="#" class="menu-item">Popular</a>
+	<a href="#" class="menu-item">Latest</a>
+	<a href="#" class="menu-item">Wedding</a>
+	<a href="#" class="menu-item">Birthdays</a>
+	<a href="#" class="menu-item">Fest Events</a>
+
+</div>
+<div id="side-menu5" class="side-menu">
+	<a href="#" class="menu-item">Vintage Glamour</a>
+	<a href="#" class="menu-item">Fairytale Romance</a>
+	<a href="#" class="menu-item">Tropical Paradise</a>
+	<a href="#" class="menu-item">SummerCamp</a>
+	<a href="#" class="menu-item">Cultural Fusion</a>
+	<a href="#" class="menu-item">Robotic Theme</a>
+	<a href="#" class="menu-item">Science Theme</a>
+	<a href="#" class="menu-item">Playfull Theme</a>
+	<a href="#" class="menu-item">Environmental Theme</a>
+	<a href="#" class="menu-item">Arts & Music Theme</a>
+	<a href="#" class="menu-item">Religious Theme</a>
+	<a href="#" class="menu-item">Winterland</a>
+
+</div>
+<!-- end -->
+	<div class="hero-section">
+		<div class="hero-msg">
+			<div class="nav-search">
+				<input placeholder="Search to your wish" class="search-input">
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass"></i>				
+				</div>
+			</div>
+			<h1>Dream it, Design it, Your Event</h1>
+			<p>Find the Best Events themes and thousands of trusted Reviews</a> </p>
+			
+		</div>
+	</div>
+
+<!-- bars  -->
+<div class="bar-sec">
+	<h1>Event Categories :</h1>
+	<div class="whole">
+		<div class="bars">
+		  <div class="groups" id="g3" onclick="toggleContainer('D_box3', this)">
+			<h2>Venues <i class="fa-solid fa-chevron-down"></i></h2>
+			<p>Make perfect venues for your Event</p>
+		  </div>
+		  <div class="groups" id="g4" onclick="toggleContainer('D_box4', this)">
+			<h2>Vendors Section <i class="fa-solid fa-chevron-down"></i></h2>
+			<p>Experience event brilliance with our top-tier vendor selection! </p>
+		  </div>
+		</div>
+	  
+		<div class="group" id="D_box3">
+		  <h2>Discover Vibrant Venues to Make Your Events Burst with Color!</h2>
+		  <div class="grid-container" id="g-c1">
+			<div class="grid-item">
+			  <img src="temp/v3.png" class="round_img">
+			  <span>Goa</span>
+			</div>
+			<div class="grid-item">
+			  <img src="temp/v2.png" class="round_img">
+			  <span>Mumbai</span>
+			</div>
+			<div class="grid-item">
+			  <img src="temp/v1.png" class="round_img">
+			  <span>Delhi</span>
+			</div>
+			<div class="grid-item">
+			  <img src="temp/v4.png" class="round_img">
+			  <span>Pune</span>
+			</div>
+			<div class="grid-item">
+			  <img src="temp/v5.png" class="round_img">
+			  <span>Lucknow</span>
+			</div>
+		  </div>
+		</div>
+		
+		
+		
+		<div class="group" id="D_box4">
+			<h2>Make you event gracefull with trusted vendors.</h2>
+			<div class="grid-container" id="g-c1">
+			  <div class="grid-item">
+				<img src="temp/bar3.png" class="sq_img">
+				<span>Photograpers</span>
+			  </div>
+			  <div class="grid-item">
+				<img src="temp/bar2.png" class="sq_img">
+				<span>Cakes & Desserts</span>
+			  </div>
+			  <div class="grid-item">
+				<img src="temp/bar1.png" class="sq_img">
+				<span>Traveling</span>
+			  </div>
+			  <div class="grid-item">
+				<img src="temp/bar4.png" class="sq_img">
+				<span>Decorations</span>
+			  </div>
+			  <div class="grid-item">
+				<img src="temp/bar5.png" class="sq_img">
+				<span>Food & Catering</span>
+			  </div>
+			</div>
+		</div>
+		</div>
+	  
+	  
+	<!-- row 2 -->
+
+<div class="whole">
+	<div class="bars">
+	  <div class="groups" id="g1" onclick="toggleContainer('D_box1', this)">
+		<h2>Invitation Card Maker <i class="fa-solid fa-chevron-down"></i></h2>
+		<p>Create unforgettable memories with our bespoke event invitation designs!</p>
+	  </div>
+	  <div class="groups" id="g2" onclick="toggleContainer('D_box2', this)">
+		<h2>Blogs <i class="fa-solid fa-chevron-down"></i></h2>
+		<p>Discover event magic, stories, and trends in our vibrant blog!</p>
+	  </div>
+	</div>
+	<div class="group" id="D_box1">
+	  <h2>Unveil Elegance: Your Exclusive Invitation Awaits!</h2>
+	  <div class="grid-container padd">
+		<img src="temp/p3.png">
+		<img src="temp/p2.png">
+		<img src="temp/p1.png">
+		<img src="temp/p4.png">
+		<img src="temp/p5.png">
+	
+	  </div>
+	</div>
+	
+	
+	<div class="group" id="D_box2">
+	  <h2></h2>
+	  <div class="grid-container">
+		<!-- Images for Wedding Planning -->
+	  </div>
+	</div>
+	</div>
+
+	<div class="foot-panel1">
+		<!-- social media - App links etc section -->
+	</div>
+
+</div>
+
+
+<!-- /bars -->
+	<div class="shop-section">	
+	</div>
+	<div class="container-x">
+        <div class="box-x">
+            <span style="--i:1"><img src="temp/img1.png"></span>
+            <span style="--i:2"><img src="temp/img2.png"></span>
+            <span style="--i:3"><img src="temp/img3.png"></span>
+            <span style="--i:4"><img src="temp/img4.png"></span>
+            <span style="--i:5"><img src="temp/img5.png"></span>
+            <span style="--i:6"><img src="temp/img6.png"></span>
+            <span style="--i:7"><img src="temp/img7.png"></span>
+            <span style="--i:8"><img src="temp/img8.png"></span>
+
+        </div>
+        <div class="btns">
+            <div role="button" class="btn prev"></div>
+            <div role="button" class="btn next"></div>
+        </div>
+
+    </div>
+	<div class="content-sec">	
+		<h3>EVENTIFY-Samarambh - Unlock Your Event Perfection</h3>
+
+		<p>Plan your wedding with Us</p>
+		<p>Discover the key to hosting unforgettable events with Samarambh! 
+			Explore a universe of endless options as you peruse our handpicked
+			 roster of top-tier vendors. Immerse yourself in a wealth of inspiration 
+			 and ideas across various celebrations, from educational events to parties,
+			  anniversaries, birthdays, and beyond. Stay ahead of the trends with our dynamic
+			   event blog. Contact us today and embark on your journey towards the perfect celebration!</p>
+	</div>
+	<section id="info-sec">
+		<address class="company-address">
+		  <p>Eventify- Event Planner</p>
+		  <p>XYZ Eventify-Samarambh yard co pvt limited</p> 
+		</address>
+		<div class="vertical-line"></div>
+		<div class="social-media">
+		  <div class="social-icons">
+			<a href="#" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+			<a href="#" class="icon pinterest"><i class="fab fa-pinterest"></i></a>
+			<a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a>
+			<a href="#" class="icon snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+			<a href="#" class="icon youtube"><i class="fab fa-youtube"></i></a>
+		  </div>
+		</div>
+	  </section>
+  </section>
+  
+	<footer>
+
+		<div class="foot-panel2">
+			<ul>
+			<p>Get to Know Us</p>
+			<a>Top Vendors</a>
+			<a>Destination Events</a>
+			<a>Investors</a>
+			<a>Our Services</a>
+            <a>Advertise Your Products</a>
+			
+			</ul>
+			<ul>		
+			<p>Event Ideas</a>
+            <a>Event Blog</a>
+			<a>Theme Templates</a>
+			<a>Event Inspiration Gallery</a>
+			</ul>
+			<ul>
+
+			<p>Home</p>
+			<a>About us</a>
+			<a>Careers</a>
+			<a>Contact us</a>
+			<a>Terms and Conditions</a>
+            <a>Privacy Policy</a>
+            <a>Cancellation Policy</a>
+            <a>Help</a>
+			</ul>
+			<ul>
+			<p>Creativity Section</p>
+			<a>Invitation Designs</a>
+			<a>Theme of events </a>
+			<a>Designs</a>
+			<a>Templates</a>
+
+			</ul>
+		</div>
+		<div class="foot-panel4">
+			<div class="pages">
+				<a>Condition of use</a>
+				<a>Privacy Notice</a>
+				<a>Your ads Privacy Choices</a>
+			</div>
+			<div class="copyright">
+				© 2024, Eventify-Samarambh.com
+			</div>
+		</div>
+	</footer>
+	<script src="Type.js"></script>
+	</body>
+	</html>
+	
