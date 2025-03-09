@@ -11,3 +11,7 @@ This is a front-end-only project, but it's packed with creativity and attention 
 <br><br>
 🔗 Live Demo (if available): https://eventify-samarambh.netlify.app/
 📌 Built with: HTML | CSS | JavaScript
+
+## **✨ Preview**  
+![Homepage Preview](images/homepage.png)  
+*A beautifully designed event planning website with colorful gradients and smooth textures.*  
