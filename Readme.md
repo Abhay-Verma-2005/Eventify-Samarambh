@@ -9,7 +9,7 @@ Welcome to Eventify Samarambh – a vibrant and engaging front-end event plannin
 <br>
 This is a front-end-only project, but it's packed with creativity and attention to detail, making it an exciting showcase of event planning aesthetics. Whether you're a developer looking for inspiration or someone who loves great web design, Eventify Samarambh is worth exploring! 🚀
 <br><br>
-🔗 Live Demo (if available): https://eventify-samarambh.netlify.app/
+🔗 Live Demo : https://eventify-samarambh.netlify.app/
 📌 Built with: HTML | CSS | JavaScript
 
 ## **✨ Preview**  
