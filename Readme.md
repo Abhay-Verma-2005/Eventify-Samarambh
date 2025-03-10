@@ -1,4 +1,4 @@
-<h1>Eventify Samarambh 🎉</h1>
+<h1>Eventify Samarambh (FRONTEND) 🎉</h1>
 Welcome to Eventify Samarambh – a vibrant and engaging front-end event planning website designed to bring events to life!<br> Built using HTML, CSS, and a touch of JavaScript, this project focuses on creating a visually appealing and interactive user experience.
 
 <h3>✨ What makes it special?</h3><br>
